@@ -15,7 +15,7 @@ This project is a powerful AI-based tool that generates professional product ima
 ## 🚀 Demo
 
 You can try it directly on Google Colab:  
-**[▶ Open in Colab]([https://colab.research.google.com/](https://colab.research.google.com/drive/1wo-vBAJ7WrB-RiDVbyMUNdZi_NPILM_Z#scrollTo=Q64Mj1LYQngy))** 
+**[▶ Open in Colab](https://colab.research.google.com/](https://colab.research.google.com/drive/1wo-vBAJ7WrB-RiDVbyMUNdZi_NPILM_Z#scrollTo=Q64Mj1LYQngy)** 
 
 ## 🛠️ Tech Stack
 
