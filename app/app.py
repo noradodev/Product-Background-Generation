@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1wo-vBAJ7WrB-RiDVbyMUNdZi_NPILM_Z
 """
 
-!pip install torch torchvision diffusers transformers transparent-background
+pip install torch torchvision diffusers transformers transparent-background
 
 # Import required modules
 import os
@@ -83,8 +83,7 @@ def generate_image(prompt, negative_prompt, image_path, num_outputs=1, steps=30,
     return result_paths
 
 # Upload Image to System for Generation (This we need to use main image that we want to add background)
-uploaded = files.upload()
-image_path = list(uploaded.keys())[0]
+image_path = "path/to/your/local/image.jpg" 
 
 # Prompting
 #negative value is the value that you dont want to see in the image or generated into it.
@@ -115,7 +114,7 @@ results = generate_image(
 
 
 from PIL import Image
-from IPython.display import display, Image as IPyImage
+# from IPython.display import display, Image as IPyImage
 
 
 # Load the original product image and resize it
@@ -137,4 +136,5 @@ final_image = Image.alpha_composite(generated, product_only)
 # Save and display final result
 final_path = "final_result.png"
 final_image.save(final_path)
-display(IPyImage(filename=final_path))
+# display(IPyImage(filename=final_path))
+final_image.show()
