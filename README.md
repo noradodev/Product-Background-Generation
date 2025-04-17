@@ -85,6 +85,3 @@ generate_image(
 
 MIT License © 2025 Rado No
 
-
-
-Let me know if you'd like help uploading this to your GitHub or editing any specific section, like adding your name or inserting Colab/sample image links. &#8203;:contentReference[oaicite:0]{index=0}&#8203;
